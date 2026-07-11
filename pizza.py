@@ -35,18 +35,18 @@ def snacks_menu():
 def drinks_menu():
     pass
 
-def rest_menu():
+def restaurant_menu():
     print("1. Pizza\n2. Snacks\n3. Drinks\n4. Main Menu")
     choice = input("What would you like to eat ? ")
 
     if choice == '1':
-        pizza()
+        pizza_menu()
 
     elif choice == '2' :
-        snacks()
+        snacks_menu()
 
     elif choice == '3' :
-        drinks()
+        drinks_menu()
 
     elif choice == '4' :
         app_launch_menu()
@@ -69,7 +69,7 @@ def app_launch_menu():
         
         choice = input("Enter option no. : ")
         if choice == '1' :
-            rest_menu()
+            restaurant_menu()
 
         elif choice == '2' :
             view_cart()
