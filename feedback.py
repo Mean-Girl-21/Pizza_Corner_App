@@ -1,5 +1,5 @@
 """
-Handles customer feedback after payment
+Handles customer feedback after payment and redirects to main menu 
 """
 
 import ui_helpers as ui
