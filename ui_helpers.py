@@ -3,7 +3,7 @@
 Defining functions that help in :
 
     1) Maintaining a consistent UI design and , 
-    2) Avoid app crash if the user enters an invalid response (string)
+    2) Avoid app crash if the user enters an invalid response (string response)
 
 
 """
